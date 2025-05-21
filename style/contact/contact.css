@@ -1,0 +1,106 @@
+.contact-header{
+
+    font-size: 28px;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    background-color: #000000be;
+    display: block;
+    width:75%;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 60px;
+    height:auto;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+.contact-block-page{
+
+    width:60%;
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    display: inline-block;
+    background-color: #00000080;
+  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20%;
+    border-radius:15px;
+
+}
+.accordion-button:not(.collapsed) {
+  background-color: #000000;  /* Yellow (Bootstrap warning color) */
+  color: #ffffff;                /* Text color */
+}
+.contact-block-page form{
+
+    width:100%;
+    margin-left: 12%;
+}
+.contact-block-page form input{
+
+    width:75%;
+    height:25px;
+    margin-bottom: 15px;
+   
+}
+.contact-block-page form input:required:invalid{
+
+   border-color:red;
+   border-width: 5px;
+   border-style:solid;
+   
+}
+.contact-block-page form textarea:required:invalid{
+
+   border-color:red;
+   border-width: 5px;
+   border-style:solid;
+
+   
+}
+.contact-block-page form textarea:required:valid + .alert{
+
+display: none;
+   
+}
+.contact-block-page form input:required:valid + .alert{
+
+    display: none;
+
+   
+}
+
+.contact-block-page form label{
+    display: block;
+    width:100%;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.contact-block-page form textarea{
+    display: block;
+    width: 75%;
+    height:200px;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.contact-block-page-form-submit-button{
+    display: block;
+    width: 75%;
+    
+    margin-bottom: 60px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius:10px;
+    
+}
+.contact-block-page-form-submit-button:hover{
+
+    background-color: #ffae00;
+    color:white;
+}
